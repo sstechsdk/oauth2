@@ -3,9 +3,8 @@ package store
 import (
 	"context"
 	"errors"
-	"sync"
-
 	"github.com/go-oauth2/oauth2/v4"
+	"sync"
 )
 
 // NewClientStore create client store

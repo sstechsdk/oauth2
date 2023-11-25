@@ -12,6 +12,11 @@ type (
 		GetDomain() string
 		IsPublic() bool
 		GetUserID() string
+		GetCallbackUrl() string
+		GetServerPublicKey() string
+		GetServerPrivateKey() string
+		GetClientPublicKey() string
+		GetAppName() string
 	}
 
 	// ClientPasswordVerifier the password handler interface
